@@ -12,3 +12,4 @@ C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\o
 C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.pdb
 C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.genruntimeconfig.cache
 C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\ref\BullsAndCowsApp.dll
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.sourcelink.json

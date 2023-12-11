@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualBasic;
 using BullsAndCowsApp.FunctionalClasses;
-using BullsAndCowsAssignment.FunctionalClasses;
 
 namespace BullsAndCowsGame{
     class GameStart
@@ -13,32 +12,27 @@ namespace BullsAndCowsGame{
 
             while (ifKeepPlaying)
             {
+                Game game = new Game();
+                game.BCGame();
 
-//player
-                try
+                Console.WriteLine("Do you want to play again, if so, please type \"Y\", if not please type \"N\".");
+                string playAgain = Keyboard.ReadInput();
+
+                if (string.IsNullOrWhiteSpace(playAgain))
                 {
-                    Console.WriteLine("Do you want to play again, if so, please type \"Y\", if not please type \"N\".");
-                    string playAgain = Keyboard.ReadInput();
-
-                    if (string.IsNullOrWhiteSpace(playAgain))
-                    {
-                        throw new InvalidOperationException("Please enter again with a char");
-                    }
-
-                    if (playAgain.ToUpper() != "Y")
-                    {
-                        ifKeepPlaying = false;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Welcome to next round!");
-                    }
-
+                    Console.WriteLine("Please enter a character");
+                    continue;
                 }
-                catch (InvalidOperationException ex)
+
+                if (!playAgain.Equals("Y", StringComparison.CurrentCultureIgnoreCase))
                 {
-                    Console.WriteLine(ex.Message);
+                    ifKeepPlaying = false;
                 }
+                else
+                {
+                    Console.WriteLine("Welcome to next round!");
+                }
+
             }
         }
     }

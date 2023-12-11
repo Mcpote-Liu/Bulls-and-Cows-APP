@@ -1,6 +1,6 @@
 using System;
 
-namespace BullsAndCowsAssignment.FunctionalClasses
+namespace BullsAndCowsApp.FunctionalClasses
 {
     public static class Keyboard
     {
