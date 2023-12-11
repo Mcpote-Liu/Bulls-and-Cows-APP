@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using BullsAndCowsApp.FunctionalClasses;
+using BullsAndCowsApp.AIFunctions;
 
 namespace BullsAndCowsGame{
     class GameStart
