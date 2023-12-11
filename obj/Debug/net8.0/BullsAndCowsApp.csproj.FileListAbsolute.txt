@@ -1,0 +1,14 @@
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\bin\Debug\net8.0\BullsAndCowsApp.exe
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\bin\Debug\net8.0\BullsAndCowsApp.deps.json
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\bin\Debug\net8.0\BullsAndCowsApp.runtimeconfig.json
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\bin\Debug\net8.0\BullsAndCowsApp.dll
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\bin\Debug\net8.0\BullsAndCowsApp.pdb
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.AssemblyInfoInputs.cache
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.AssemblyInfo.cs
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.csproj.CoreCompileInputs.cache
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.dll
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\refint\BullsAndCowsApp.dll
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.pdb
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\BullsAndCowsApp.genruntimeconfig.cache
+C:\Users\LeoLiu\OneDrive - Kerridge & Partners\Documents\codes\BullsAndCowsApp\obj\Debug\net8.0\ref\BullsAndCowsApp.dll
