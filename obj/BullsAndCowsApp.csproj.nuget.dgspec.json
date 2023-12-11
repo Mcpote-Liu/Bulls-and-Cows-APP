@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LeoLiu\\OneDrive - Kerridge & Partners\\Documents\\codes\\BullsAndCowsApp\\BullsAndCowsApp.csproj": {}
+    "C:\\Users\\berni\\Desktop\\codes\\Bulls-and-Cows-APP\\BullsAndCowsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LeoLiu\\OneDrive - Kerridge & Partners\\Documents\\codes\\BullsAndCowsApp\\BullsAndCowsApp.csproj": {
+    "C:\\Users\\berni\\Desktop\\codes\\Bulls-and-Cows-APP\\BullsAndCowsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LeoLiu\\OneDrive - Kerridge & Partners\\Documents\\codes\\BullsAndCowsApp\\BullsAndCowsApp.csproj",
+        "projectUniqueName": "C:\\Users\\berni\\Desktop\\codes\\Bulls-and-Cows-APP\\BullsAndCowsApp.csproj",
         "projectName": "BullsAndCowsApp",
-        "projectPath": "C:\\Users\\LeoLiu\\OneDrive - Kerridge & Partners\\Documents\\codes\\BullsAndCowsApp\\BullsAndCowsApp.csproj",
-        "packagesPath": "C:\\Users\\LeoLiu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LeoLiu\\OneDrive - Kerridge & Partners\\Documents\\codes\\BullsAndCowsApp\\obj\\",
+        "projectPath": "C:\\Users\\berni\\Desktop\\codes\\Bulls-and-Cows-APP\\BullsAndCowsApp.csproj",
+        "packagesPath": "C:\\Users\\berni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berni\\Desktop\\codes\\Bulls-and-Cows-APP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LeoLiu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\berni\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
