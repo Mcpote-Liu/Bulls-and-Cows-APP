@@ -1,18 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace BullsAndCowsApp.FunctionalClasses
 {
     public class RandomNumber
     {
         Random random = new Random(); 
-        public string GenerateRandomNumber()
+        public string GenerateRandomNumber(int length)
         {
             HashSet<int> uniqueDigits = new HashSet<int>();
             string numberString = "";
-            while (numberString.Length < 4)
+            while (numberString.Length < length)
             {
                 int digit = random.Next(0, 10);
                 if (uniqueDigits.Add(digit)) 

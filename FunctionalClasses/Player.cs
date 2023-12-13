@@ -5,36 +5,46 @@ namespace BullsAndCowsApp.FunctionalClasses
 {
     public class Player
     {
+        private readonly int digitNumber;
+
+        public Player(int digitNumber){
+            this.digitNumber = digitNumber;
+        }
+
         public string EnterCode()
         {
             while (true)
             {
-                Console.Write("Enter code: ");
-                string input = Console.ReadLine();
+                Console.Write($"Please enter your code with {digitNumber} different digits: ");
+                string input = Keyboard.ReadInput();
 
-                try
+                bool ifValidate = ValidateInput(input, digitNumber);
+                if (ifValidate)
                 {
-                    ValidateInput(input);
                     return input;
                 }
-                catch (Exception e)
+                else
                 {
-                    Console.WriteLine(e.Message);
                     Console.Write("Please re-write: ");
                 }
             }
         }
 
-        private static void ValidateInput(string input)
+        private static bool ValidateInput(string input, int digitNumber)
         {
             if (!IsNumeric(input))
             {
-                throw new Exception("Please enter a number.");
+                Console.WriteLine("Please enter a number.");
+                return false;
             }
-
-            if (!IsFourDifferentDigits(input))
+            else if (!IsRightNumberDifferentDigits(input, digitNumber))
             {
-                throw new Exception("Please enter a 4-different-digits number.");
+                Console.WriteLine($"Please enter a {digitNumber}-different-digits number.");
+                return false;
+            }
+            else
+            {
+                return true;
             }
         }
 
@@ -44,10 +54,10 @@ namespace BullsAndCowsApp.FunctionalClasses
             return int.TryParse(str, out _);
         }
 
-        // Examine whether input has 4 different digits, also used for HardAI
-        public static bool IsFourDifferentDigits(string str)
+        // Examine whether input has right number different digits, also used for HardAI
+        public static bool IsRightNumberDifferentDigits(string str, int digitNumber)
         {
-            if (str.Length != 4)
+            if (str.Length != digitNumber)
             {
                 return false;
             }

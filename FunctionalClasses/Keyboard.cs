@@ -1,5 +1,3 @@
-using System;
-
 namespace BullsAndCowsApp.FunctionalClasses
 {
     public static class Keyboard
