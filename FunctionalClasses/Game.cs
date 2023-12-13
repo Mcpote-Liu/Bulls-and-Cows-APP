@@ -38,7 +38,7 @@ namespace BullsAndCowsApp.FunctionalClasses
 
             GuessEvaluator guessEvaluator = new GuessEvaluator();
 
-            while (roundCount <= 7)
+            while (roundCount <= 8)
             {
                 Console.WriteLine("---");
                 Console.WriteLine($"Round {roundCount}");
@@ -78,7 +78,7 @@ namespace BullsAndCowsApp.FunctionalClasses
                     Console.WriteLine("Computer Choose: " + computerCode);
                     break;
                 }
-                else if (roundCount == 8)
+                else if (roundCount == 9)
                 {
                     Console.WriteLine(Draw());
                     Console.WriteLine("Computer Choose: " + computerCode);

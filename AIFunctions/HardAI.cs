@@ -6,6 +6,7 @@ namespace BullsAndCowsApp.AIFunctions
     public class HardAI : AI
     {
         private List<string> differentDigitsNumbers = new List<string>();
+        //by test, list is better than hash set for the function
         private string computerGuess;
         Stopwatch stopwatch = new Stopwatch();
 
@@ -13,6 +14,7 @@ namespace BullsAndCowsApp.AIFunctions
         public HardAI(int digitNumber) : base(digitNumber)
         {
             stopwatch.Start();
+            //better code mainatinable and scalability 
             for (int i = 0; i <= Math.Pow(10,digitNumber) - 1; i++)
             {
                 string numberStr = i.ToString($"D{digitNumber}");
@@ -33,6 +35,7 @@ namespace BullsAndCowsApp.AIFunctions
             differentDigitsNumbers.RemoveAll(num => !EqualArrays(result, guessEvaluator.EvaluateGuess(num, guess)));
         }
 
+        //pick a possible code to show 
         private void ComputerGuessGenerator()
         {
             Random random = new Random();
