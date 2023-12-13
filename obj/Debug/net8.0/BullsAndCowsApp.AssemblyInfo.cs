@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BullsAndCowsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2cc1b8b82e61548d0b06b90d5a05bee0ec17a76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b7f29e68c862e42592e645a96c20b332bb366cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BullsAndCowsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BullsAndCowsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

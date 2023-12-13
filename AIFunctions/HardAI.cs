@@ -13,6 +13,7 @@ namespace BullsAndCowsApp.AIFunctions
         // In constructor, generate all possible numbers.
         public HardAI(int digitNumber) : base(digitNumber)
         {
+            //just to calculate the time it consume
             stopwatch.Start();
             //better code mainatinable and scalability 
             for (int i = 0; i <= Math.Pow(10,digitNumber) - 1; i++)
@@ -24,6 +25,7 @@ namespace BullsAndCowsApp.AIFunctions
                 }
                 
             }
+
             stopwatch.Stop();
             Console.WriteLine($"Generate the whole list costs {stopwatch.ElapsedMilliseconds} milliseconds.");
         }
@@ -46,6 +48,7 @@ namespace BullsAndCowsApp.AIFunctions
         public override string GetComputerGuess()
         {
             ComputerGuessGenerator();
+            //just show the list of possible outcome
             Console.WriteLine($"current count of the possible list is {differentDigitsNumbers.Count}");
             return computerGuess;
         }
